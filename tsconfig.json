@@ -1,0 +1,26 @@
+{
+  "compilerOptions":{
+  "target":"es6",
+  "module":"none",
+  "outDir":"dist",
+  "strict":true,
+  "noImplicitAny":true,
+  "moduleResolution":"node",
+  "baseUrl":".",
+  "paths":{
+   "*":[
+         "node_modules/"
+        ]
+  },
+  "esModuleInterop":true,
+  "sourceRoot":"",
+  "mapRoot":"",
+  "inlineSourceMap":true,
+  "inlineSources":true,
+  "forceConsistentCasingInFileNames":true,
+  "skipLibCheck":true,
+  },
+  "include":[
+    "src/**/*"
+  ]
+  } 
